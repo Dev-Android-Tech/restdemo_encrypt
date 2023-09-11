@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btngetdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Clear Data"
+            app:backgroundTint="#EF0C0C" />
+
+        <EditText
+            android:id="@+id/ettable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Table Name" />
+
+        <Button
+            android:id="@+id/btgetcrypted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Crypted Data"
+            app:backgroundTint="#4CAF50" />
+
+        <EditText
+            android:id="@+id/ettable2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Table Name" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="444dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            app:backgroundTint="#367385" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
